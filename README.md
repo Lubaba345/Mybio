@@ -1,4 +1,4 @@
-# My Online Portfolio
+# My bio
 
 A simple multi-page personal portfolio website created with HTML and CSS.
 
@@ -21,7 +21,7 @@ A simple multi-page personal portfolio website created with HTML and CSS.
 ## Project Structure
 
 ```text
-my-online-portfolio/
+my bio/
 ├── index.html
 ├── mybio.html
 ├── education.html
@@ -45,32 +45,5 @@ my-online-portfolio/
 No installation is required.
 
 Open `index.html` in a web browser.
-
-You can also run a simple local web server with Python:
-
-```bash
-python -m http.server 8000
-```
-
-Then open:
-
-```text
-http://localhost:8000
-```
-
-## GitHub Pages
-
-This repository is ready for GitHub Pages because `index.html` is included at the repository root.
-
-After uploading the files to GitHub:
-
-1. Open the repository.
-2. Go to **Settings**.
-3. Open **Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`.
-6. Save.
-
 ## Author
-
 Lubaba Karim
