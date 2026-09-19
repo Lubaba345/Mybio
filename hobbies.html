@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<body>
+
+<!-- Navigation Menu -->
+<div class="nav">
+    <a href="index.html">
+        <img src="home.png" alt="Home Icon" width="80" height="60">
+        About Me
+    </a> |
+
+    <a href="education.html">
+        <img src="education.png" alt="Education Icon" width="80" height="60">
+        Education
+    </a> |
+
+    <a href="work.html">
+        <img src="work.png" alt="Work Icon" width="80" height="60">
+        Work
+    </a> |
+
+    <a href="hobbies.html">
+        <img src="hobbies.png" alt="Hobbies Icon" width="80" height="60">
+        Hobbies
+    </a>
+</div>
+
+<hr />
+
+<!-- Main Heading -->
+<h1>My Hobbies</h1>
+
+<!-- Content Paragraph -->
+<p>
+In my free time, I enjoy activities that help me grow both personally and professionally. 
+Reading allows me to explore new ideas and expand my knowledge. Traveling helps me 
+experience different cultures and environments, which broadens my perspective. 
+I also enjoy coding because it strengthens my logical thinking and allows me 
+to create meaningful and innovative projects.
+</p>
+
+<hr />
+
+<!-- Three Separate Hobby Images -->
+<img src="reading.jpg" alt="Image of books representing reading as a hobby" width="250" height="250">
+<img src="travel.jpg" alt="Image representing traveling and exploring new places" width="250" height="250">
+<img src="coding.jpg" alt="Image representing coding and programming" width="250" height="250">
+
+<br><br>
+
+<h2>Clickable Hobby Map</h2>
+
+<!-- Combined Collage Image Used for Image Map -->
+<img src="hobbies.jpg" 
+     alt="Collage of reading, traveling, and coding hobbies"
+     usemap="#hobbymap"
+     width="900"
+     height="300">
+
+<!-- Image Map Definition -->
+<map name="hobbymap">
+
+    <area shape="rect"
+          coords="0,0,300,300"
+          href="https://www.goodreads.com"
+          alt="Visit Goodreads for reading resources">
+
+    <area shape="rect"
+          coords="300,0,600,300"
+          href="https://www.booking.com"
+          alt="Visit Booking.com for travel planning">
+
+    <area shape="rect"
+          coords="600,0,900,300"
+          href="https://www.leetcode.com"
+          alt="Visit LeetCode for coding practice">
+
+</map>
+
+</body>
+</html>
